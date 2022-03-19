@@ -13,7 +13,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-    <?php do_action('jnews_after_body'); ?>
+
 
     <?php get_template_part('fragment/side-feed'); ?>
 
