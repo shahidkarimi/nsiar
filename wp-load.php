@@ -46,10 +46,10 @@ if ( function_exists( 'error_reporting' ) ) {
  * If neither set of conditions is true, initiate loading the setup process.
  */
 if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
-
+die("534959");
 	/** The config file resides in ABSPATH */
 	require_once ABSPATH . 'wp-config.php';
-	die("534959");
+	
 
 } elseif ( @file_exists( dirname( ABSPATH ) . '/wp-config.php' ) && ! @file_exists( dirname( ABSPATH ) . '/wp-settings.php' ) ) {
 
