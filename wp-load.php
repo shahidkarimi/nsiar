@@ -1,5 +1,5 @@
 <?php
-die("x00");
+
 /**
  * Bootstrap file for setting the ABSPATH constant
  * and loading the wp-config.php file. The wp-config.php
@@ -61,7 +61,7 @@ if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
 
 	define( 'WPINC', 'wp-includes' );
 	require_once ABSPATH . WPINC . '/load.php';
-
+die('wap');
 	// Standardize $_SERVER variables across setups.
 	wp_fix_server_vars();
 
