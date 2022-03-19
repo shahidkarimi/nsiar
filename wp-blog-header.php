@@ -11,7 +11,7 @@ if ( ! isset( $wp_did_header ) ) {
 
 	// Load the WordPress library.
 	require_once __DIR__ . '/wp-load.php';
-die('fuck');
+
 	// Set up the WordPress query.
 	wp();
 
