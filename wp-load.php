@@ -49,6 +49,7 @@ if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
 
 	/** The config file resides in ABSPATH */
 	require_once ABSPATH . 'wp-config.php';
+	die("534959");
 
 } elseif ( @file_exists( dirname( ABSPATH ) . '/wp-config.php' ) && ! @file_exists( dirname( ABSPATH ) . '/wp-settings.php' ) ) {
 
@@ -59,7 +60,7 @@ if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
 
 	// A config file doesn't exist.
 
-	define( 'WPINC', 'wp-includes' );die('wap');
+	define( 'WPINC', 'wp-includes' );
 	require_once ABSPATH . WPINC . '/load.php';
 
 	// Standardize $_SERVER variables across setups.
