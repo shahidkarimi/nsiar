@@ -25,6 +25,7 @@
  * @return void|false Void on success, false if the template does not exist.
  */
 function get_header( $name = null, $args = array() ) {
+	
 	/**
 	 * Fires before the header template file is loaded.
 	 *
