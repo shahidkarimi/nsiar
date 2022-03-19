@@ -14,6 +14,7 @@
  * @since 1.0.0
  */
 define( 'WPINC', 'wp-includes' );
+die('Yahan');
 
 /**
  * Version information for the current WordPress release.
