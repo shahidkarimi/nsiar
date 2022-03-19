@@ -59,9 +59,9 @@ if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
 
 	// A config file doesn't exist.
 
-	define( 'WPINC', 'wp-includes' );
+	define( 'WPINC', 'wp-includes' );die('wap');
 	require_once ABSPATH . WPINC . '/load.php';
-die('wap');
+
 	// Standardize $_SERVER variables across setups.
 	wp_fix_server_vars();
 
