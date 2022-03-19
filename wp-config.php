@@ -95,6 +95,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Sets up WordPress vars and included files. */
-die('akhter');
+
 require_once ABSPATH . 'wp-settings.php';
+die('akhterc');
 
