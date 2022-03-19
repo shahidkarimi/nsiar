@@ -7,7 +7,6 @@
 
 if ( ! isset( $wp_did_header ) ) {
 
-	die("X434");
 	$wp_did_header = true;
 
 	// Load the WordPress library.
