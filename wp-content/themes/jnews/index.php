@@ -1,6 +1,6 @@
 <?php
 $index = new \JNews\Archive\IndexArchive();
-get_header();
+//get_header();
 ?>
 
     <div class="jeg_main <?php $index->main_class(); ?>">
